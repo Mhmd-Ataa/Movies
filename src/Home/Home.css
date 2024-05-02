@@ -1,0 +1,47 @@
+.searchBar{
+    width: 75%;
+}
+.searchBar input{
+    height: 45px;
+    border: 0;
+    background-color: rgba(128, 128, 128, 0.408);
+    border-radius: 15px;
+    outline: 0;
+}
+.searchBar img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.movieCard{
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 15px;
+    height: 500px;
+    transition: all .8s;
+}
+.movieCard:hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.415);
+}
+.movieCard img{
+    height: 400px;
+    width: 100%;
+}
+.movieCard p{
+    color: gray;
+}
+.pageTitle h2{
+       font-size: 3rem;
+       letter-spacing: 4px;
+       font-weight: 600;
+       color: rgb(177, 118, 8);
+       text-shadow: 3px 3px 10px orange;
+ }
+
+ @media screen and (max-width:400px) {
+    
+     .searchBar {
+         width: 95%;
+     }
+     
+ }
